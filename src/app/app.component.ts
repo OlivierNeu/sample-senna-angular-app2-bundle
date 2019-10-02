@@ -16,10 +16,6 @@ export class AppComponent implements AfterViewInit {
         $('#p_p_id' + this.params.portletNamespace + ' .loader.loader-inline').hide();
     }
 
-    Suivant() {
-        console.log("clique btn next");
-    }
-
     title: string = 'Team 2 - App 1';
     labels: any;
     params: LiferayParams;
